@@ -1,0 +1,459 @@
+@charset "UTF-8";
+/*herosection*/
+.hero__fondo {
+  background-image: url(../imagenes/herosection.jpg);
+  background-size: cover;
+  height: calc(99vh - 79px);
+  width: 100vw; }
+  .hero__fondo .hero__info {
+    position: absolute;
+    left: 55%;
+    margin-top: 5%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+    align-items: center; }
+    .hero__fondo .hero__info h1 {
+      font-size: 4em; }
+    .hero__fondo .hero__info h2 {
+      font-size: 2em;
+      text-align: center;
+      margin-top: 1%; }
+    .hero__fondo .hero__info button {
+      width: 25%;
+      height: 30px;
+      margin-top: 2%; }
+
+/*herosection*/
+/*caracteristicas*/
+.seccion__caracts {
+  display: flex;
+  flex-flow: column wrap;
+  justify-items: center;
+  align-items: center; }
+  .seccion__caracts .caracts__contenedor {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 60%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center; }
+    .seccion__caracts .caracts__contenedor img {
+      width: 30%; }
+    .seccion__caracts .caracts__contenedor .caracts__txt {
+      width: 30%; }
+      .seccion__caracts .caracts__contenedor .caracts__txt h3 {
+        font-size: 2em;
+        text-align: center; }
+      .seccion__caracts .caracts__contenedor .caracts__txt p {
+        font-size: 1.2em;
+        text-align: center; }
+
+#orden2 img {
+  order: 2; }
+
+#orden2 .caracts__txt {
+  order: 1; }
+
+.caracts__contenedor img:hover {
+  transform: scale(1.1); }
+
+.seccion__btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center; }
+  .seccion__btn button {
+    width: 25%;
+    height: 30px; }
+
+/*caracteristicas*/
+/*seccion productos*/
+.seccion__productos {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  justify-content: space space-evenly;
+  align-content: space-evenly;
+  margin-bottom: 30px;
+  margin-top: 30px; }
+  .seccion__productos .tarjeta__productos {
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center; }
+    .seccion__productos .tarjeta__productos img {
+      width: 100%; }
+    .seccion__productos .tarjeta__productos p {
+      font-size: 1.5em;
+      text-align: center;
+      margin-top: 15px;
+      margin-bottom: 25px; }
+
+.tarjeta__productos img:hover {
+  transform: scale(1.1); }
+
+/*seccion productos*/
+video {
+  width: 80%;
+  position: relative;
+  left: 10%;
+  right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+.hero__nosotros {
+  width: 100vw; }
+  .hero__nosotros img {
+    width: 100%; }
+
+.nosotros__txt {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  right: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  .nosotros__txt h2 {
+    text-align: center;
+    font-size: 2.5em; }
+  .nosotros__txt p {
+    text-align: center;
+    font-size: 1.5em; }
+
+.mapa {
+  width: 100%; }
+
+.contacto__redes-logos {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 3%;
+  margin-bottom: 3%; }
+  .contacto__redes-logos img {
+    margin-left: 3em;
+    margin-right: 3em; }
+
+.contacto__redes-logos img:hover {
+  transform: scale(1.1); }
+
+/*form*/
+.contacto__form-dudas {
+  background-color: #f6f7f5;
+  width: 30%;
+  position: relative;
+  left: 34.5%;
+  right: 34.5%;
+  margin-bottom: 4%;
+  padding-top: 2%;
+  border: 0.15px #A6A292 solid; }
+  .contacto__form-dudas fieldset {
+    border: none;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch; }
+  .contacto__form-dudas legend {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 2%; }
+  .contacto__form-dudas label {
+    margin: 1%;
+    font-size: 1em; }
+  .contacto__form-dudas input {
+    margin: 1%;
+    border: none;
+    background-color: #ffffff; }
+  .contacto__form-dudas textarea {
+    resize: none;
+    border: none;
+    background-color: #ffffff;
+    width: 96%;
+    height: 5em;
+    position: relative;
+    left: 2%;
+    right: 2%;
+    margin-bottom: 1%; }
+
+/*form*/
+/* MEDIA QUERIES  HOME*/
+@media only screen and (max-width: 1225px) {
+  /*tablets*/
+  .header {
+    width: 100%; }
+    .header .menu__logo {
+      width: 40px; }
+    .header a {
+      font-size: 10px; }
+  .main {
+    width: 100%; }
+    .main .hero__fondo {
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 500px; }
+    .main .hero__info {
+      margin-top: 3em; }
+      .main .hero__info h1 {
+        font-size: 1.5em; }
+      .main .hero__info h2 {
+        font-size: 1em; }
+      .main .hero__info .btn__catalogo {
+        width: 50%;
+        font-size: 0.5em; }
+  .seccion__caracts {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center; }
+    .seccion__caracts .caracts__contenedor img {
+      width: 15em; }
+    .seccion__caracts .caracts__contenedor .caracts.txt {
+      width: 10em; }
+      .seccion__caracts .caracts__contenedor .caracts.txt h3 {
+        font-size: 1.2em;
+        text-align: center; }
+      .seccion__caracts .caracts__contenedor .caracts.txt p {
+        font-size: 1em;
+        text-align: center; }
+  footer {
+    width: 100%;
+    height: 100px;
+    padding-top: 5px;
+    padding-bottom: 20px; }
+    footer .footer__copyright img {
+      width: 50px;
+      margin: 10px; }
+    footer .footer__copyright p {
+      font-size: 0.8em; }
+    footer .footer__redes p {
+      font-size: 0.9em; }
+    footer .footer__redes .footer__logos-redes {
+      width: 1.5em; }
+  .listaContacto {
+    font-size: 0.8em; } }
+
+/*celus*/
+@media only screen and (max-width: 600px) {
+  .header {
+    width: 100%; }
+  .logoMenu {
+    width: 20px; }
+  .menu ul li a {
+    font-size: 5px; }
+  .main {
+    width: 100%; }
+  .backHero {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 200px; }
+  .heroSection {
+    margin-top: 2em; }
+  .heroSection h1 {
+    font-size: 0.4em; }
+  .heroSection h2 {
+    font-size: 0.3em; }
+  .heroSection button {
+    width: 50%; }
+  .heroSection .boton {
+    font-size: 0.1em; }
+  .Caracteristicas {
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+    align-items: center; }
+  .Caracteristicas h3 {
+    font-size: 1.5em;
+    text-align: center; }
+  .Caracteristicas p {
+    font-size: 1em;
+    text-align: center; }
+  .Caracteristicas img {
+    width: 10em;
+    margin-bottom: 20px; }
+  .cajaCaracteristica {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center; }
+  .info-caracteristica {
+    width: 10em; }
+  #orden2 img {
+    order: 1; }
+  #orden2 .info-caracteristica {
+    order: 2; }
+  footer {
+    width: 100%;
+    height: 100px;
+    padding-top: 5px;
+    padding-bottom: 30px; }
+  .derechosAutor img {
+    width: 20px;
+    margin: 10px; }
+  .derechosAutor p {
+    font-size: 0.5em; }
+  .listaContacto {
+    font-size: 0.5em; }
+  .redesFooter p {
+    font-size: 0.7em; }
+  .loguitos {
+    width: 1em; } }
+
+/* MEDIA QUERIES  CATALOGO*/
+@media only screen and (max-width: 600px) {
+  /*celus*/
+  .Productos {
+    width: 110vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "fila1" "fila2" "fila3" "fila4" "fila5" "fila6";
+    grid-row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center; }
+  .filaProductos1 {
+    grid-area: fila1;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center; }
+  .filaProductos2 {
+    grid-area: fila2;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center; }
+  .filaProductos3 {
+    grid-area: fila3;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center; }
+  .filaProductos4 {
+    grid-area: fila4;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center; }
+  .filaProductos5 {
+    grid-area: fila5;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center; }
+  .filaProductos6 {
+    grid-area: fila6;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center; } }
+
+/*
+beige para otra section y formulario: 
+
+botones y hover del menú
+#A6A292
+*/
+/*Reseteo*/
+* {
+  margin: 0;
+  padding: 0;
+  color: #1f1f21;
+  list-style: none;
+  text-decoration: none; }
+
+/*Reseteo*/
+/*generales*/
+img {
+  width: 100px; }
+
+body {
+  width: 99vw;
+  background-image: linear-gradient(to bottom, #f1f0ec 60%, #DBD5C5); }
+
+.btn__catalogo {
+  background-color: #f6f7f5;
+  border: none; }
+  .btn__catalogo a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center; }
+
+.btn__catalogo:hover {
+  background-color: #A6A292; }
+
+/*generales*/
+/*menu*/
+header {
+  width: 100vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f7f5; }
+  header .menu__logo {
+    width: 5%;
+    margin: 10px; }
+  header .menu__nav {
+    text-align: right;
+    margin: 10px; }
+    header .menu__nav li {
+      display: inline-block;
+      padding: 10px;
+      margin: 5px; }
+      header .menu__nav li a {
+        font-weight: bold; }
+
+.menu__nav ul li:hover {
+  background-color: #A6A292;
+  color: #f1f0ec; }
+
+/*menu*/
+/*footer*/
+footer {
+  width: 100vw;
+  background-color: #f6f7f5;
+  padding-top: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center; }
+  footer .footer__copyright {
+    margin: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start; }
+    footer .footer__copyright img {
+      width: 5%;
+      margin: 10px; }
+    footer .footer__copyright p {
+      font-size: 0.8em; }
+  footer .footer__redes {
+    margin: 10px;
+    margin-right: 10%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-end; }
+    footer .footer__redes .footer__logos-redes {
+      width: 5%; }
+    footer .footer__redes .footer__lista-contacto {
+      font-size: 0.8em; }
+
+/*footer*/

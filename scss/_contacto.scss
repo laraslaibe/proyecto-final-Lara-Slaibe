@@ -1,0 +1,83 @@
+$clr-fondo: #f1f0ec;
+$clr-beige: #DBD5C5;
+$clr-menu-footer: #f6f7f5;
+$clr-btn: #A6A292;
+$clr-tipografia: #1f1f21;
+
+.mapa {
+    width: 100%;
+}
+
+.contacto__redes-logos {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+    img {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+}
+
+.contacto__redes-logos img:hover {
+    transform: scale(1.1);
+}
+
+/*form*/
+
+.contacto__form-dudas {
+    background-color:$clr-menu-footer;
+    width: 30%;
+    position: relative;
+    left: 34.5%;
+    right: 34.5%;
+
+    margin-bottom: 4%;
+    padding-top: 2%;
+    border: 0.15px $clr-btn solid;
+
+    fieldset {
+        border: none;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: stretch;
+    }
+
+    legend {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    label {
+        margin: 1%;
+        font-size: 1em;
+    }
+
+    input {
+        margin: 1%;
+        border: none;
+        background-color: #ffffff;
+    }
+
+    textarea {
+        resize: none;
+        border: none;
+        background-color: #ffffff;
+        width: 96%;
+        height: 5em;
+        position: relative;
+        left: 2%;
+        right: 2%;
+    
+        margin-bottom: 1%;
+    }
+}
+
+/*form*/

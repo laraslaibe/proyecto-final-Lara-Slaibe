@@ -1,0 +1,111 @@
+/*herosection*/
+.hero__fondo {
+    background-image: url(../imagenes/herosection.jpg);
+    background-size: cover;
+    height: calc(99vh - 79px);
+    width: 100vw;
+
+    .hero__info {
+        position: absolute;
+        left: 55%;
+        margin-top: 5%;
+
+        display: flex;
+        flex-flow: column wrap;
+        
+        justify-items: center;
+        align-items: center;
+
+        h1 {
+            font-size: 4em;
+        }
+
+        h2 {
+            font-size: 2em;
+            text-align: center;
+            margin-top: 1%;
+        }
+
+        button {
+            width: 25%;
+            height: 30px;
+            margin-top: 2%;
+        }
+    }
+}
+/*herosection*/
+
+
+
+/*caracteristicas*/
+
+.seccion__caracts {
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+    align-items: center;
+
+    .caracts__contenedor {
+        margin-top: 30px;
+        margin-bottom: 60px;
+        width: 60%;
+    
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+
+        img {
+            width: 30%;
+        }
+
+        .caracts__txt {
+            width: 30%;
+
+            h3 {
+                font-size: 2em;
+                text-align: center;
+            }
+    
+            p {
+                font-size: 1.2em;
+                text-align: center;
+            }
+        }
+    }
+}
+
+#orden2 img {
+        order: 2;
+    }
+
+#orden2 .caracts__txt {
+        order: 1;
+    }
+
+.caracts__contenedor img:hover {
+    transform: scale(1.1);
+}
+
+.seccion__btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        width: 25%;
+        height: 30px;
+    }
+}
+
+/*caracteristicas*/
+
+
+
+
+
+
+

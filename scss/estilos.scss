@@ -1,0 +1,152 @@
+@import "_homepage.scss"; 
+@import "_catalogo.scss";
+@import "_videos.scss";
+@import "_quienes-somos.scss";
+@import "_contacto.scss";
+@import "media-queries.scss";
+
+/*
+beige para otra section y formulario: 
+
+botones y hover del menú
+#A6A292
+*/
+
+$clr-fondo: #f1f0ec;
+$clr-beige: #DBD5C5;
+$clr-menu-footer: #f6f7f5;
+$clr-btn: #A6A292;
+$clr-tipografia: #1f1f21;
+
+/*Reseteo*/
+* {
+    margin: 0;
+    padding: 0;
+    color: $clr-tipografia;
+    list-style: none;
+    text-decoration: none;
+}
+/*Reseteo*/
+
+
+
+/*generales*/
+
+img {
+    width: 100px;
+}
+
+body {
+    width: 99vw;
+    background-image: linear-gradient(to bottom, #f1f0ec 60%, #DBD5C5);
+}
+
+.btn__catalogo {
+    background-color: $clr-menu-footer;
+    border: none;
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+.btn__catalogo:hover {
+    background-color: $clr-btn;
+}
+
+/*generales*/
+
+
+
+/*menu*/
+
+header {
+    width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $clr-menu-footer;
+
+    .menu__logo {
+        width: 5%;
+        margin: 10px;
+    }
+
+    .menu__nav {
+        text-align: right;
+        margin: 10px;
+
+        li {
+            display: inline-block;
+            padding: 10px;
+            margin: 5px;
+
+            a {
+                font-weight: bold;
+                }
+        }
+    }
+}
+
+.menu__nav ul li:hover {
+    background-color: $clr-btn;
+    color: $clr-fondo;
+    }
+
+/*menu*/
+
+
+
+/*footer*/
+
+footer {
+    width: 100vw;
+    background-color: $clr-menu-footer;
+    padding-top: 20px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer__copyright {
+        margin: 30px;
+
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        img {
+            width: 5%;
+            margin: 10px;
+        }
+
+        p {
+            font-size: 0.8em;
+        }
+    }
+
+    .footer__redes {
+        margin: 10px;
+        margin-right: 10%;
+    
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: flex-end;
+
+        .footer__logos-redes {
+            width: 5%;
+            }
+
+        .footer__lista-contacto {
+            font-size: 0.8em;
+            }
+        }
+}
+
+/*footer*/

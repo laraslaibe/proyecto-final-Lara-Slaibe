@@ -1,0 +1,231 @@
+
+/* MEDIA QUERIES  HOME*/
+
+@media only screen and (max-width: 1225px) {
+    /*tablets*/
+
+        .header {
+            width: 100%;
+
+            .menu__logo {
+                width: 40px;
+            }
+
+            a {
+                font-size: 10px;
+            }
+        }
+
+        .main {
+            width: 100%;
+
+            .hero__fondo {
+                background-size: 100%;
+                background-repeat: no-repeat;
+                height: 500px;
+            }
+
+            .hero__info {
+                margin-top: 3em;
+
+                h1 {
+                    font-size: 1.5em;
+                }
+                h2{
+                    font-size: 1em;
+                }
+                .btn__catalogo {
+                    width: 50%;
+                    font-size: 0.5em;
+                }
+            }
+        }
+    
+        .seccion__caracts {
+            margin-top: 10px;
+            margin-bottom: 30px;
+            width: 100%;
+        
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: center;
+        
+            .caracts__contenedor {
+                img {
+                    width: 15em;
+                }
+
+                .caracts.txt {
+                    width: 10em;
+
+                    h3{
+                        font-size: 1.2em;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 1em;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    
+    
+    footer {
+        width: 100%;
+        height: 100px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+
+        .footer__copyright {
+            img {
+                width: 50px;
+                margin: 10px;
+            }
+            p {
+                font-size: 0.8em;
+            }
+        }
+
+        .footer__redes {
+            p {
+                font-size: 0.9em;
+            }
+            .footer__logos-redes {
+                width: 1.5em;
+            }
+            .footer__lista-contacto {
+                font-size: 0.8em;
+            }
+        }
+    }
+}
+
+    /*celus*/
+    @media only screen and (max-width: 600px) {
+    
+        .header {
+            width: 100%;
+
+            .menu__logo {
+                width: 20px;
+            }
+
+            a {
+                font-size: 5px;
+            }
+        }
+
+        .main {
+            width: 100%;
+
+            .hero__fondo {
+                background-size: 100%;
+                background-repeat: no-repeat;
+                height: 200px;
+            }
+
+            .hero__info {
+                margin-top: 2em;
+
+                h1 {
+                    font-size: 0.4em;
+                }
+                h2{
+                    font-size: 0.3em;
+                }
+                .btn__catalogo {
+                    width: 50%;
+                    font-size: 0.1em;
+                }
+            }
+        }
+    
+        .seccion__caracts {
+            margin-top: 10px;
+            margin-bottom: 30px;
+            width: 100%;
+        
+            display: flex;
+            flex-flow: column wrap;
+            justify-items: center;
+            align-items: center;
+        
+            .caracts__contenedor {
+                img {
+                    width: 10em;
+                    margin-bottom: 20px;
+                }
+
+                .caracts.txt {
+                    width: 10em;
+
+                    h3{
+                        font-size: 1.5em;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 1em;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    
+        #orden2 img {
+            order: 1;
+        }
+        
+        #orden2 .info-caracteristica {
+            order: 2;
+        }
+    
+    footer {
+        width: 100%;
+        height: 100px;
+        padding-top: 5px;
+        padding-bottom: 30px;
+
+        .footer__copyright {
+            img {
+                width: 20px;
+                margin: 10px;
+            }
+            p {
+                font-size: 0.5em;
+            }
+        }
+
+        .footer__redes {
+            p {
+                font-size: 0.7em;
+            }
+            .footer__logos-redes {
+                width: 1em;
+            }
+            .footer__lista-contacto {
+                font-size: 0.5em;
+            }
+        }
+    }
+}
+
+
+    /* MEDIA QUERIES  CATALOGO*/
+    
+    
+    @media only screen and (max-width: 600px) {
+        /*celus*/
+    
+        .seccion__productos {
+            width: 110vw;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-row-gap: 10px;
+            justify-items: center;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+        }
+}
