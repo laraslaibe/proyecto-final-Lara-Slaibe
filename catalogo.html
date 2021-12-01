@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo | Sur Nativo</title>
-    <link rel="stylesheet" href="./css/estilos.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./CSS/estilos.css">
 </head>
 
 <body>
@@ -29,48 +32,1249 @@
         <section class="seccion__productos">
 
                 <div class="tarjeta__productos">
-                    <img src="./imagenes/fotoproducto/01.jpg" alt="Hornitos">
-                    <p>Casuelas</p>
+                    <img src="./imagenes/fotoproducto/01.jpg" alt="Guardatutti">
+                    <p class="titulo--producto">Guardatutti</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Guardatutti</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/01.jpg" alt="Guardatutti">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 guardatutti<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Cucharas y espátulas son aparte.</p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$1200</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="tarjeta__productos">
-                    <img src="./imagenes/fotoproducto/02.jpg" alt="Casuelas blancos y negros">
-                    <p>Hornitos</p>
+                    <img src="./imagenes/fotoproducto/02.jpg" alt="Ensaladera">
+                    <p class="titulo--producto">Ensaladera</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal2">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ensaladera</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/02.jpg" alt="ensaladera">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 ensaladera<li>
+                                                <li>- 1 cuchara<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$3000</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="tarjeta__productos">
-                    <img src="./imagenes/fotoproducto/03.jpg" alt="Mates">
-                    <p>Mates</p>
+                    <img src="./imagenes/fotoproducto/03.jpg" alt="Bowls">
+                    <p class="titulo--producto">Bowls</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal3">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Bowls</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/03.jpg" alt="Bowls">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- cantidad a elección de piezas<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$1100</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="tarjeta__productos">
-                    <img src="./imagenes/fotoproducto/01.jpg" alt="Hornitos">
-                    <p>Casuelas</p>
+                    <img src="./imagenes/fotoproducto/04.jpg" alt="Compoteras">
+                    <p class="titulo--producto">Compoteras</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal4">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Compoteras</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/04.jpg" alt="COmpoteras">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- cantidad a elección de piezas<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$xxxx</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="tarjeta__productos">
-                    <img src="./imagenes/fotoproducto/02.jpg" alt="Casuelas blancos y negros">
-                    <p>Hornitos</p>
+                    <img src="./imagenes/fotoproducto/05.jpg" alt="Postres">
+                    <p class="titulo--producto">Postres</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModa5">Ver más</button>
+
+                    <div class="modal fade" id="exampleModa5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Postres</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/05.jpg" alt="Postres">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- cantidad a elección de piezas<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$640</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="tarjeta__productos">
-                    <img src="./imagenes/fotoproducto/03.jpg" alt="Mates">
-                    <p>Mates</p>
+                    <img src="./imagenes/fotoproducto/06.jpg" alt="Copetín">
+                    <p class="titulo--producto">Copetín x3</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal6">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Copetín x3</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/06.jpg" alt="Copetín">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 3 copetines<li>
+                                                <li>- 1 tabla<li>
+                                                <li>- 3 cucharitas<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$750</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="tarjeta__productos">
-                    <img src="./imagenes/fotoproducto/01.jpg" alt="Hornitos">
-                    <p>Casuelas</p>
+                    <img src="./imagenes/fotoproducto/07.jpg" alt="Copetín x2">
+                    <p class="titulo--producto">Copetín x2</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal7">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Copetín x2</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/07.jpg" alt="Copetín x2">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 2 copetines<li>
+                                                <li>- 1 tabla de maadera<li>
+                                                <li>- 2 pinchos<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$1200</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="tarjeta__productos">
-                    <img src="./imagenes/fotoproducto/02.jpg" alt="Casuelas blancos y negros">
-                    <p>Hornitos</p>
+                    <img src="./imagenes/fotoproducto/08.jpg" alt="Mantequera">
+                    <p class="titulo--producto">Mantequera</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal8">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Mantequera</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/08.jpg" alt="Mantequera">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 mantequera<li>
+                                                <li>- 2 dulceras<li>
+                                                <li>- 2 cucharitas<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$950</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="tarjeta__productos">
-                    <img src="./imagenes/fotoproducto/03.jpg" alt="Mates">
-                    <p>Mates</p>
+                    <img src="./imagenes/fotoproducto/09.jpg" alt="x">
+                    <p class="titulo--producto">nombre</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal9">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">nombre</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/09.jpg" alt="x">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- cantidad de piezas a elección<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$xxxx</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/10.jpg" alt="x">
+                    <p class="titulo--producto">nombre</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal10">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">nombre</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/10.jpg" alt="x">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- cantidad de piezas a elección<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$xxx</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/11.jpg" alt="Sushi">
+                    <p class="titulo--producto">Sushi</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal11">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Sushi</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/11.jpg" alt="Sushi">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 bandeja<li>
+                                                <li>- 1 salsera<li>
+                                                <li>- 1 soporte<li>
+                                                <li>- 1 juego de palitos<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Verde</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$1500</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/12.jpg" alt="Tazitas">
+                    <p class="titulo--producto">Tazitas</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal12">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Tazitas</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/12.jpg" alt="Tazitas">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- juego de 6 tazitas<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Verde</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$640</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/13.jpg" alt="Taza en bandeja">
+                    <p class="titulo--producto">Taza en bandeja</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal13">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Taza en bandeja</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/13.jpg" alt="Taza en bandeja">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 taza<li>
+                                                <li>- 1 bandeja<li>
+                                                <li>- 1 cuchara<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$780</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/14.jpg" alt="Taza">
+                    <p class="titulo--producto">Taza</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal14">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Taza</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/14.jpg" alt="Taza">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 taza<li>
+                                                <li>- 1 cuchara<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$780</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/15.jpg" alt="Bandeja">
+                    <p class="titulo--producto">Bandeja</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal15">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Bandeja</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/15.jpg" alt="Taza">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 bandeja<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$1600</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/16.jpg" alt="Taza juego">
+                    <p class="titulo--producto">Taza juego</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal16">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Taza juego</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/16.jpg" alt="Taza juego">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 taza<li>
+                                                <li>- 1 azucarera<li>
+                                                <li>- 1 bandeja<li>
+                                                <li>- 1 cuchara<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$2400</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/17.jpg" alt="Azucarera">
+                    <p class="titulo--producto">Azucarera</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal17">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Azucarera</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/17.jpg" alt="Taza">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 azucarera<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$850</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/18.jpg" alt="nombre">
+                    <p class="titulo--producto">nombre</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal18">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">nombre</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/18.jpg" alt="nombre">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 taza<li>
+                                                <li>- 1 lechera<li>
+                                                <li>- 1 bandeja<li>
+                                                <li>- 1 cuchara<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$2300</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/19.jpg" alt="Lecheras">
+                    <p class="titulo--producto">Lecheras</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal19">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Lecheras</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/19.jpg" alt="Lecheras">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 lechera<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>Chica $780</h2>
+                                        <h2>Grande $880</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/20.jpg" alt="Mate guarda">
+                    <p class="titulo--producto">Mate guarda</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal20">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Mate guarda</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/20.jpg" alt="Mate guarda">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 mate<li>
+                                                <li>- 1 bombilla de bambú<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$820</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/21.jpg" alt="Mate rayado">
+                    <p class="titulo--producto">Mate rayado</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal21">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal21" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Mate rayado</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/21.jpg" alt="Mate rayado">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 mate<li>
+                                                <li>- 1 bombilla de bambú<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$820</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/22.jpg" alt="Juego de té">
+                    <p class="titulo--producto">Juego de té</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal22">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal22" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Juego de té</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/22.jpg" alt="Juego de té">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 tetera<li>
+                                                <li>- 2 vasitos<li>
+                                                <li>- 1 cuenco<li>
+                                                <li>- 1 colador<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$5000</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/23.jpg" alt="Tetera">
+                    <p class="titulo--producto">Tetera</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal23">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal23" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Tetera</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/23.jpg" alt="Tetera">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 tetera<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$xxxx</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/25.jpg" alt="Chop">
+                    <p class="titulo--producto">Chop</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal25">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal25" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Chop</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/25.jpg" alt="Chop">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 chop<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$830</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/24.jpg" alt="Chop">
+                    <p class="titulo--producto">Chop</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal24">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal24" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Chop</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/24.jpg" alt="Chop">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 chop<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$830</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/26.jpg" alt="nombre">
+                    <p class="titulo--producto">nombre</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal26">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal26" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Nombre</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/26.jpg" alt="nombre">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 salero<li>
+                                                <li>- 1 dulcera<li>
+                                                <li>- 1 mantequera<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$xxx</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__productos">
+                    <img src="./imagenes/fotoproducto/27.jpg" alt="Hornitos">
+                    <p class="titulo--producto">Hornitos</p>
+                    
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal27">Ver más</button>
+
+                    <div class="modal fade" id="exampleModal27" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Hornitos</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    <img src="./imagenes/fotoproducto/27.jpg" alt="Hornitos">
+
+                                    <div class="info--modal">
+                                        <p>Incluye
+                                            <ul>
+                                                <li>- 1 hornito<li>
+                                                <li>- 1 cuenco<li>
+                                                <li>- 1 velita (opcional)<li>
+                                            </ul>
+                                        </p>
+
+                                        <p>Colores disponibles
+                                            <ul>
+                                                <li>- Beige</li>
+                                                <li>- Azul</li>
+                                                <li>- Gris</li>
+                                                <li>- Blanco</li>
+                                            </ul>
+                                        </p>
+
+                                        <h2>$800</h2>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -109,6 +1313,7 @@
 
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
 </body>
 
 </html>

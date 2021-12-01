@@ -1,3 +1,9 @@
+$clr-fondo: #f1f0ec;
+$clr-beige: #DBD5C5;
+$clr-menu-footer: #f6f7f5;
+$clr-btn: #A6A292;
+$clr-tipografia: #1f1f21;
+
 /*seccion productos*/
 
 .seccion__productos {
@@ -15,28 +21,43 @@
     margin-top: 30px;
 
     .tarjeta__productos {
-        width: 70%;
+        width: 95%;
+        margin-bottom: 5%;
 
         display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
+        flex-flow: column wrap;
+        justify-content: center;
         align-items: center;
 
         img {
             width: 100%;
         }
 
-        p {
+        .titulo--producto {
             font-size:  1.5em;
             text-align: center;
             margin-top: 15px;
             margin-bottom: 25px;
+            text-transform: uppercase;
         }
-    }
-}
 
-.tarjeta__productos img:hover {
-    transform: scale(1.1);
+            .info--modal {
+
+                p {
+                    margin-top: 5%;
+                    font-size: 1em;
+                }
+
+                ul {
+                    list-style: square;
+                }
+
+                h2 {
+                    text-align: right;
+                }
+            }
+
+    }
 }
 
 /*seccion productos*/

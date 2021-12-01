@@ -28,7 +28,28 @@ $clr-tipografia: #1f1f21;
     transform: scale(1.1);
 }
 
-/*form*/
+.container {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    form {
+        background-color: $clr-menu-footer;
+        padding: 5%;
+    }
+
+    .form-label {
+        margin-top: 2%
+    }
+
+    .btn {
+        margin: 1%;
+    }
+}
+
+/*form
 
 .contacto__form-dudas {
     background-color:$clr-menu-footer;
@@ -80,4 +101,4 @@ $clr-tipografia: #1f1f21;
     }
 }
 
-/*form*/
+form*/
