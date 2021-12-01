@@ -241,57 +241,51 @@ video {
       font-size: 0.9em; }
     footer .footer__redes .footer__logos-redes {
       width: 1.5em; }
-  .listaContacto {
-    font-size: 0.8em; } }
+    footer .footer__redes .footer__lista-contacto {
+      font-size: 0.8em; } }
 
 /*celus*/
 @media only screen and (max-width: 600px) {
   .header {
     width: 100%; }
-  .logoMenu {
-    width: 20px; }
-  .menu ul li a {
-    font-size: 5px; }
+    .header .menu__logo {
+      width: 20px; }
+    .header a {
+      font-size: 5px; }
   .main {
     width: 100%; }
-  .backHero {
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 200px; }
-  .heroSection {
-    margin-top: 2em; }
-  .heroSection h1 {
-    font-size: 0.4em; }
-  .heroSection h2 {
-    font-size: 0.3em; }
-  .heroSection button {
-    width: 50%; }
-  .heroSection .boton {
-    font-size: 0.1em; }
-  .Caracteristicas {
-    display: flex;
-    flex-flow: column wrap;
-    justify-items: center;
-    align-items: center; }
-  .Caracteristicas h3 {
-    font-size: 1.5em;
-    text-align: center; }
-  .Caracteristicas p {
-    font-size: 1em;
-    text-align: center; }
-  .Caracteristicas img {
-    width: 10em;
-    margin-bottom: 20px; }
-  .cajaCaracteristica {
+    .main .hero__fondo {
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 200px; }
+    .main .hero__info {
+      margin-top: 2em; }
+      .main .hero__info h1 {
+        font-size: 0.4em; }
+      .main .hero__info h2 {
+        font-size: 0.3em; }
+      .main .hero__info .btn__catalogo {
+        width: 50%;
+        font-size: 0.1em; }
+  .seccion__caracts {
     margin-top: 10px;
     margin-bottom: 30px;
     width: 100%;
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
+    flex-flow: column wrap;
+    justify-items: center;
     align-items: center; }
-  .info-caracteristica {
-    width: 10em; }
+    .seccion__caracts .caracts__contenedor img {
+      width: 10em;
+      margin-bottom: 20px; }
+    .seccion__caracts .caracts__contenedor .caracts.txt {
+      width: 10em; }
+      .seccion__caracts .caracts__contenedor .caracts.txt h3 {
+        font-size: 1.5em;
+        text-align: center; }
+      .seccion__caracts .caracts__contenedor .caracts.txt p {
+        font-size: 1em;
+        text-align: center; }
   #orden2 img {
     order: 1; }
   #orden2 .info-caracteristica {
@@ -301,67 +295,30 @@ video {
     height: 100px;
     padding-top: 5px;
     padding-bottom: 30px; }
-  .derechosAutor img {
-    width: 20px;
-    margin: 10px; }
-  .derechosAutor p {
-    font-size: 0.5em; }
-  .listaContacto {
-    font-size: 0.5em; }
-  .redesFooter p {
-    font-size: 0.7em; }
-  .loguitos {
-    width: 1em; } }
+    footer .footer__copyright img {
+      width: 20px;
+      margin: 10px; }
+    footer .footer__copyright p {
+      font-size: 0.5em; }
+    footer .footer__redes p {
+      font-size: 0.7em; }
+    footer .footer__redes .footer__logos-redes {
+      width: 1em; }
+    footer .footer__redes .footer__lista-contacto {
+      font-size: 0.5em; } }
 
 /* MEDIA QUERIES  CATALOGO*/
 @media only screen and (max-width: 600px) {
   /*celus*/
-  .Productos {
+  .seccion__productos {
     width: 110vw;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: "fila1" "fila2" "fila3" "fila4" "fila5" "fila6";
     grid-row-gap: 10px;
     justify-items: center;
     align-items: center;
     justify-content: center;
-    align-content: center; }
-  .filaProductos1 {
-    grid-area: fila1;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    align-items: center; }
-  .filaProductos2 {
-    grid-area: fila2;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    align-items: center; }
-  .filaProductos3 {
-    grid-area: fila3;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    align-items: center; }
-  .filaProductos4 {
-    grid-area: fila4;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    align-items: center; }
-  .filaProductos5 {
-    grid-area: fila5;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    align-items: center; }
-  .filaProductos6 {
-    grid-area: fila6;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    align-items: center; } }
+    align-content: center; } }
 
 /*
 beige para otra section y formulario: 
