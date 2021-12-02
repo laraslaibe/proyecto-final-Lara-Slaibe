@@ -376,7 +376,11 @@ botones y hover del menú
   padding: 0;
   color: #1f1f21;
   list-style: none;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif; }
+
+h1, h2, h3 {
+  font-family: "papyrus", "copperplate", fantasy; }
 
 /*Reseteo*/
 /*generales*/
