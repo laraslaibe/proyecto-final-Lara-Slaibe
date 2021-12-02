@@ -176,59 +176,6 @@ video {
   .container .btn {
     margin: 1%; }
 
-/*form
-
-.contacto__form-dudas {
-    background-color:$clr-menu-footer;
-    width: 30%;
-    position: relative;
-    left: 34.5%;
-    right: 34.5%;
-
-    margin-bottom: 4%;
-    padding-top: 2%;
-    border: 0.15px $clr-btn solid;
-
-    fieldset {
-        border: none;
-        display: flex;
-        flex-flow: column wrap;
-        align-items: stretch;
-    }
-
-    legend {
-        font-weight: bold;
-        font-size: 1.5em;
-        text-align: center;
-        padding-bottom: 2%;
-    }
-
-    label {
-        margin: 1%;
-        font-size: 1em;
-    }
-
-    input {
-        margin: 1%;
-        border: none;
-        background-color: #ffffff;
-    }
-
-    textarea {
-        resize: none;
-        border: none;
-        background-color: #ffffff;
-        width: 96%;
-        height: 5em;
-        position: relative;
-        left: 2%;
-        right: 2%;
-    
-        margin-bottom: 1%;
-    }
-}
-
-form*/
 /* MEDIA QUERIES  HOME*/
 @media only screen and (max-width: 1225px) {
   /*tablets*/
@@ -413,7 +360,7 @@ header {
   background-color: #f6f7f5; }
   header .menu__logo {
     width: 5%;
-    margin: 10px; }
+    margin: 2%; }
   header .menu__nav {
     text-align: right;
     margin: 10px; }
