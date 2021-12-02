@@ -28,7 +28,7 @@ $clr-tipografia: #1f1f21;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .pregunta--titulo {
     font-family: "papyrus", "copperplate", fantasy;
 }
 /*Reseteo*/
@@ -76,8 +76,8 @@ header {
     background-color: $clr-menu-footer;
 
     .menu__logo {
-        width: 5%;
-        margin: 2%;
+        width: 4%;
+        margin: 10px;
     }
 
     .menu__nav {
@@ -98,9 +98,8 @@ header {
     }
 }
 
-.menu__nav ul li:hover {
-    background-color: $clr-btn;
-    color: $clr-fondo;
+.menu__nav ul li a:hover {
+    color: $clr-btn;
     }
 
 /*menu*/

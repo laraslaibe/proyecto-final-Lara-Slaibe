@@ -1,9 +1,10 @@
 /*herosection*/
 .hero__fondo {
     background-image: url(../imagenes/herosection.jpg);
-    background-size: cover;
-    height: calc(99vh - 79px);
     width: 100vw;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: calc(99vh - 200px);
 
     .hero__info {
         position: absolute;
@@ -17,11 +18,12 @@
         align-items: center;
 
         h1 {
-            font-size: 4em;
+            font-size: 3em;
         }
 
         h2 {
-            font-size: 2em;
+            font-size: 1.5em;
+            width: 75%;
             text-align: center;
             margin-top: 1%;
         }
@@ -30,6 +32,7 @@
             width: 25%;
             height: 30px;
             margin-top: 2%;
+            border-radius: 5px;
         }
     }
 }
@@ -98,6 +101,7 @@
     button {
         width: 25%;
         height: 30px;
+        border-radius: 5px;
     }
 }
 
