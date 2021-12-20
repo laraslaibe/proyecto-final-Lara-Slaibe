@@ -61,6 +61,10 @@ header {
     .menu__logo {
         width: 7%;
         margin: 15px;
+
+        img {
+            width: 100%;
+        }
     }
 
     .container-fluid {
@@ -129,11 +133,11 @@ footer {
         align-items: flex-end;
 
         div {
-            justify-self: right;
+            justify-self: center;
             width: 15%;
 
                 img{
-                    width: 30%;
+                    width: 45%;
                 }
         }
 

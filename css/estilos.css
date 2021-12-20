@@ -40,6 +40,8 @@ header {
   header .menu__logo {
     width: 7%;
     margin: 15px; }
+    header .menu__logo img {
+      width: 100%; }
   header .container-fluid .col-md-12 .nav li {
     padding: 10px; }
     header .container-fluid .col-md-12 .nav li a {
@@ -80,10 +82,10 @@ footer {
     justify-content: flex-start;
     align-items: flex-end; }
     footer .footer__redes div {
-      justify-self: right;
+      justify-self: center;
       width: 15%; }
       footer .footer__redes div img {
-        width: 30%; }
+        width: 45%; }
     footer .footer__redes ul {
       font-size: 0.8em; }
 
