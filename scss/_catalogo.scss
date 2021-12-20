@@ -1,10 +1,9 @@
-$clr-fondo: #f1f0ec;
-$clr-beige: #DBD5C5;
-$clr-menu-footer: #f6f7f5;
-$clr-btn: #A6A292;
-$clr-tipografia: #1f1f21;
-
 /*seccion productos*/
+
+.title__catalogo {
+    text-align: center;
+    margin: 20px;
+}
 
 .seccion__productos {
     width: 100vw;
@@ -39,6 +38,17 @@ $clr-tipografia: #1f1f21;
             margin-top: 15px;
             margin-bottom: 25px;
             text-transform: uppercase;
+        }
+
+        .btn__compra-info {
+            width: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            
+            button{
+                margin: 0px 10px;
+            }
         }
 
             .info--modal {

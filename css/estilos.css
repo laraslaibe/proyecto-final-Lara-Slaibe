@@ -76,6 +76,10 @@
 
 /*caracteristicas*/
 /*seccion productos*/
+.title__catalogo {
+  text-align: center;
+  margin: 20px; }
+
 .seccion__productos {
   width: 100vw;
   display: grid;
@@ -102,6 +106,13 @@
       margin-top: 15px;
       margin-bottom: 25px;
       text-transform: uppercase; }
+    .seccion__productos .tarjeta__productos .btn__compra-info {
+      width: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center; }
+      .seccion__productos .tarjeta__productos .btn__compra-info button {
+        margin: 0px 10px; }
     .seccion__productos .tarjeta__productos .info--modal p {
       margin-top: 5%;
       font-size: 1em; }
@@ -118,7 +129,7 @@ video {
 .txt--video {
   text-align: center;
   margin-top: 2%; }
-  .txt--video h2 {
+  .txt--video h1 {
     font-size: 3.5em; }
   .txt--video p {
     font-size: 2em; }
@@ -135,7 +146,7 @@ video {
   right: 25%;
   margin-top: 5%;
   margin-bottom: 5%; }
-  .nosotros__txt h2 {
+  .nosotros__txt h1 {
     text-align: center;
     font-size: 2.5em; }
   .nosotros__txt p {
@@ -147,6 +158,9 @@ video {
     font-weight: 500;
     font-size: 2em;
     margin-top: 2%; }
+
+.title__contacto {
+  display: none; }
 
 .mapa {
   width: 100%; }
@@ -377,12 +391,6 @@ video {
     justify-content: center;
     align-content: center; } }
 
-/*
-beige para otra section y formulario: 
-
-botones y hover del menú
-#A6A292
-*/
 /*Reseteo*/
 * {
   margin: 0;
