@@ -4,13 +4,6 @@ $clr-menu-footer: #f6f7f5;
 $clr-btn: #A6A292;
 $clr-tipografia: #1f1f21;
 
-@import "_homepage.scss"; 
-@import "_catalogo.scss";
-@import "_videos.scss";
-@import "_quienes-somos.scss";
-@import "_contacto.scss";
-@import "media-queries.scss";
-
 /*Reseteo*/
 * {
     margin: 0;
@@ -40,18 +33,15 @@ body {
 }
 
 .btn__catalogo {
-    background-color: $clr-menu-footer;
-    border: none;
+    width: 30%;
+    height: 50px;
 
     a {
+        color: white;
         text-decoration: none;
         font-weight: bold;
         text-align: center;
     }
-}
-
-.btn__catalogo:hover {
-    background-color: $clr-btn;
 }
 
 /*generales*/
@@ -69,29 +59,29 @@ header {
     background-color: $clr-menu-footer;
 
     .menu__logo {
-        width: 4%;
-        margin: 10px;
+        width: 7%;
+        margin: 15px;
     }
 
-    .menu__nav {
-        text-align: right;
-        margin: 10px;
-
-        li {
-            display: inline-block;
-            padding: 10px;
-            margin: 5px;
-
-            a {
-                font-weight: bold;
-                color: $clr-tipografia;
-                text-decoration: none;
+    .container-fluid {
+        .col-md-12{
+            .nav {
+                li {
+                    padding: 10px;
+                    a {
+                        font-size: 1em;
+                        font-weight: bold;
+                        color: $clr-tipografia;
+                        text-decoration: none;
+                    }
                 }
+            }
         }
     }
+
 }
 
-.menu__nav ul li a:hover {
+.container-fluid .col-md-12 .nav li a:hover  {
     color: $clr-btn;
     }
 
@@ -120,7 +110,7 @@ footer {
         align-items: flex-start;
 
         img {
-            width: 7%;
+            width: 25%;
             margin: 10px;
         }
 
@@ -154,3 +144,10 @@ footer {
 }
 
 /*footer*/
+
+@import "_homepage.scss"; 
+@import "_catalogo.scss";
+@import "_videos.scss";
+@import "_quienes-somos.scss";
+@import "_contacto.scss";
+@import "media-queries.scss";

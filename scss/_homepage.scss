@@ -4,7 +4,7 @@
     width: 100vw;
     background-size: 100vw;
     background-repeat: no-repeat;
-    height: calc(99vh - 200px);
+    height: 700px;
 
     .hero__info {
         position: absolute;
@@ -18,21 +18,18 @@
         align-items: center;
 
         h1 {
-            font-size: 3em;
+            font-size: 3.6em;
         }
 
         h2 {
-            font-size: 1.5em;
+            font-size: 1.8em;
             width: 75%;
             text-align: center;
             margin-top: 1%;
         }
 
-        button {
-            width: 25%;
-            height: 30px;
+        .btn__catalogo {
             margin-top: 2%;
-            border-radius: 5px;
         }
     }
 }
@@ -51,7 +48,7 @@
     .caracts__contenedor {
         margin-top: 30px;
         margin-bottom: 60px;
-        width: 60%;
+        width: 80%;
     
         display: flex;
         flex-flow: row nowrap;
@@ -63,7 +60,7 @@
         }
 
         .caracts__txt {
-            width: 30%;
+            width: 50%;
 
             h3 {
                 font-size: 2em;
@@ -97,19 +94,6 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-
-    button {
-        width: 25%;
-        height: 30px;
-        border-radius: 5px;
-    }
 }
 
 /*caracteristicas*/
-
-
-
-
-
-
-
